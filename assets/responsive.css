@@ -2,6 +2,12 @@
     p {
         line-height: 1.5;
     }
+
+    .text-paragrafo{
+        width: 300px;
+
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 800px) {
