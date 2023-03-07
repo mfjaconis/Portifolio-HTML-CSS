@@ -48,4 +48,8 @@
     p {
         font-size: 10px;
     }
+
+    main article div, .text-paragrafo {
+        width: 200px;
+    }
 }
