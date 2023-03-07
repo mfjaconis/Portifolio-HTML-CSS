@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px) {
+    p {
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding: 20px;
+    }
+
+    .techs {
+        margin-top: 20px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-title {
+        font-size: 2rem;
+    }
+
+    .techs {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
